@@ -1,4 +1,63 @@
 /*  your css code here. If applicable */
 body{
-	background-color: gray;
+	background-color: #f6f6f6;
+	display: flex;
+	ustify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container {
+      display: flex;
+      border: 1px solid #ccc;
+	align-items: flex-start;
+    }
+.left{
+	width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+  padding-right: 20px;
+}
+.left img{
+	width: 200px;
+}
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+form{
+	display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  gap: 15px;
+}
+input{
+	border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.log{
+	background-color:#1877f2;;
+	width: 100%
+}
+a{
+	color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+text-decoration: underline;
+}
+.p1{
+	font-size: 18px;
+  color: #4a4a4a;
+}
+.signup{
+	background-color:#36a420;
+	color: white;
+	width: 100%;
 }
